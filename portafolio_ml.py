@@ -21,7 +21,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader("Prueba Streamlit")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("knn.png")
+    image = Image.open("Sesion1")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos cómo clasificar datos usando el algoritmo KNN.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
@@ -33,7 +33,7 @@ with col1:
 with col2:
     st.subheader("Regresión logística")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("knn.png")
+    image = Image.open("Sesion2")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos cómo agrupar datos usando K-Means.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
@@ -43,7 +43,7 @@ with col2:
 with col3:
     st.subheader("Algoritmos de clasificación.")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("knn.png")
+    image = Image.open("sesion4")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos cómo funciona un árbol de decisión.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
@@ -53,7 +53,7 @@ with col3:
 with col4:
     st.subheader("Consumo electrico.")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("knn.png")
+    image = Image.open("sesion5")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos cómo funciona un árbol de decisión.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
@@ -63,7 +63,7 @@ with col4:
 with col5:
     st.subheader("Árboles de Decisión")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("knn.png")
+    image = Image.open("Arbol")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos cómo funciona un árbol de decisión.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
@@ -73,7 +73,7 @@ with col5:
 with col6:
     st.subheader("Medidor de energía")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("knn.png")
+    image = Image.open("Medidor")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos cómo funciona un árbol de decisión.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
