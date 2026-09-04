@@ -19,9 +19,9 @@ st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ml})")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.subheader("Prueba Streamlit")
+    st.subheader("Prueba Streamlit.")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("Sesion1")
+    image = Image.open("Sesion1.png")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos cómo clasificar datos usando el algoritmo KNN.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
@@ -31,9 +31,9 @@ with col1:
     
 
 with col2:
-    st.subheader("Regresión logística")
+    st.subheader("Regresión logística.")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("Sesion2")
+    image = Image.open("Sesion2.png")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos cómo agrupar datos usando K-Means.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
@@ -43,7 +43,7 @@ with col2:
 with col3:
     st.subheader("Algoritmos de clasificación.")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("sesion4")
+    image = Image.open("sesion4.png")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos cómo funciona un árbol de decisión.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
@@ -53,7 +53,7 @@ with col3:
 with col4:
     st.subheader("Consumo electrico.")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("sesion5")
+    image = Image.open("sesion5.png")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos cómo funciona un árbol de decisión.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
@@ -61,9 +61,9 @@ with col4:
     st.write(f"Árbol de Decisión: [Enlace]({url})")
 
 with col5:
-    st.subheader("Árboles de Decisión")
+    st.subheader("Árboles de Decisión.")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("Arbol")
+    image = Image.open("Arbol.png")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos cómo funciona un árbol de decisión.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
@@ -71,9 +71,9 @@ with col5:
     st.write(f"Árbol de Decisión: [Enlace]({url})")
 
 with col6:
-    st.subheader("Medidor de energía")
+    st.subheader("Medidor de energía.")
     # 👇 REEMPLAZA el nombre del archivo de imagen
-    image = Image.open("Medidor")
+    image = Image.open("Medidor.png")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos cómo funciona un árbol de decisión.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
