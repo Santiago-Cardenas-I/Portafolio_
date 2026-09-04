@@ -71,13 +71,13 @@ with col5:
     st.write(f"Árbol de Decisión: [Enlace]({url})")
 
 with col6:
-    st.subheader("Árboles de Decisión")
+    st.subheader("Medidor de energía")
     # 👇 REEMPLAZA el nombre del archivo de imagen
     image = Image.open("knn.png")
     st.image(image, width=190)
     st.write("En el siguiente enlace veremos cómo funciona un árbol de decisión.")
     # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
-    url = "REEMPLAZA_url_arbol.streamlit.app/"
+    url = "https://medidordeenergia-ckh2webpsnpldwujpjsf6f.streamlit.app/"
     st.write(f"Árbol de Decisión: [Enlace]({url})")
 
 
