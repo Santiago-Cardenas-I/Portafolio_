@@ -37,6 +37,15 @@ with col1:
     url = "https://appconsumoenergia.streamlit.app/"
     st.write(f"Consumo: [Enlace]({url})")
 
+    st.subheader("Neurona artificial y redes neuronales.")
+    # 👇 REEMPLAZA el nombre del archivo de imagen
+    image = Image.open("neurona.png")
+    st.image(image, width=190)
+    st.write("En este enlace pueden visualizar la suma de dos neuronas con sus correspondientes funciones de activación.")
+    # 👇 REEMPLAZA la url por la de tu app en Streamlit Cloud
+    url = "https://neuronaartificialapp-ysvid6optnptwfsjynfzpa.streamlit.app/"
+    st.write(f"Neurona y redes neuronales: [Enlace]({url})")
+
     
 
 with col2:
